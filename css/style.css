@@ -86,6 +86,10 @@ h5 {
     height: 50px;
 }
 
+.navbar-brand {
+    padding: 15px 0;
+}
+
 .navbar-nav {
     float: right;
 }
