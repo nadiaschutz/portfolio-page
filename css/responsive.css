@@ -1,62 +1,41 @@
 /*medium devices*/
 
+@media only screen and (max-width: 1233px) {
+    #skills ul li {
+        width: 12%;
+    }
+}
+
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
     /* Mobile menu */
     .navbar {
-        background: rgba(0, 0, 0, .7);
         padding: 0;
     }
     .navbar-nav {
         float: left;
-    }
-    .vesco-nav-wrapper {
-        padding: 0;
     }
 }
 
 
 /*small devices*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     /* Mobile menu */
-    .navbar {
-        background: rgba(0, 0, 0, .7);
-        padding: 0;
+    .header-text {
+        margin-bottom: 115px;
     }
-    .navbar-nav {
-        float: left;
-    }
-    .vesco-nav-wrapper {
-        padding: 0;
-    }
-    /*about-remove diagonal border*/
-    #about-bg-diagonal {
-        border-left: 0;
-        border-right: 0;
-        width: 100%;
-        height: 350px;
-    }
-    #about-content-box {
-        width: 100%;
-        height: 350px;
+    .social-list {
+        /* padding-left: 0; */
         text-align: center;
     }
-    #about .content-title h3 {
+    .right {
         text-align: center;
     }
-    #about .content-title-underline {
-        text-align: center;
-        margin: 0 auto 30px auto;
-    }
-    /*stats*/
-    .stats-item {
-        padding: 20px 0;
-    }
-    #footer-copyrights {
-        text-align: center;
+    .footer-copyrights {
+        float: none;
     }
 }
 
@@ -65,65 +44,21 @@
 
 @media(max-width:767px) {
     /* Mobile menu */
-    .navbar {
-        background: rgba(0, 0, 0, .7);
-        padding: 0;
+    #home h1 {
+        /* font-size: 64px; */
+        font-size: 65px;
     }
-    .navbar-nav {
-        float: left;
+    .devicons,
+    .devicon-atom-original,
+    .devicon-react-original,
+    .devicon-babel-plain,
+    .devicon-javascript-plain,
+    .devicon-nodejs-plain {
+        font-size: 70px;
     }
-    .vesco-nav-wrapper {
-        padding: 0;
-    }
-    #home-heading h3 {
-        font-size: 24px;
-    }
-    /*buttons*/
-    .btn-general {
-        padding: 6px 22px;
-        font-size: 14px;
-    }
-    /*about-remove diagonal border*/
-    #about-bg-diagonal {
-        border-left: 0;
-        border-right: 0;
-        width: 100%;
-        height: 350px;
-    }
-    #about-content-box {
-        width: 100%;
-        height: 350px;
-        text-align: center;
-    }
-    #about .content-title h3 {
-        text-align: center;
-    }
-    #about .content-title-underline {
-        text-align: center;
-        margin: 0 auto 30px auto;
-    }
-    /*work*/
-    .img-wrapper img {
-        min-width: 100%;
-    }
-    /*testimonials*/
-    .testimonial blockquote {
-        padding: 6px 50px;
-    }
-    .testimonial blockquote::before {
-        left: 10px;
-    }
-    .testimonial blockquote::after {
-        right: 10px;
-    }
-    .testimonial blockquote p {
-        font-size: 14px;
-    }
-    /*stats*/
-    .stats-item {
-        padding: 20px 0;
-    }
-    #footer-copyrights {
+    .iconlabel {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
         text-align: center;
     }
 }
@@ -133,15 +68,11 @@
 
 @media(max-width:480px) {
     /* Mobile menu */
-    .navbar {
-        background: rgba(0, 0, 0, .7);
-        padding: 0;
-    }
-    .navbar-nav {
-        float: left;
-    }
-    .vesco-nav-wrapper {
-        padding: 0;
+    .button {
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -150,28 +81,4 @@
 
 @media(max-width:320px) {
     /*.services*/
-    .service-item-icon i {
-        width: 58px;
-        height: 58px;
-        padding: 7px;
-    }
-    .service-item-title h3 {
-        font-size: 17px;
-    }
-    #about-content-box {
-        margin-top: 40px;
-    }
-    /*testimonials*/
-    .testimonial img {
-        max-width: 80px;
-    }
-    .testimonial blockquote {
-        padding: 6px 30px;
-    }
-    .testimonial blockquote::before {
-        left: 7px;
-    }
-    .testimonial blockquote::after {
-        right: 7px;
-    }
 }
