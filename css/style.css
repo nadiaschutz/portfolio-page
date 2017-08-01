@@ -83,6 +83,7 @@ h5 {
 .portf-top-nav {
     background: white;
     padding: 7px 0;
+    box-shadow: 1px 0 3px rgba(34, 34, 34, 0.18);
 }
 
 .portf-nav-wrapper {
@@ -234,6 +235,14 @@ h5 {
     font-size: 100px;
 }
 
+#skills ul li:first-child {
+    margin-left: 0;
+}
+
+.skills-items {
+    padding-left: 0;
+}
+
 
 /*contact*/
 
@@ -330,15 +339,15 @@ textarea::placeholder {
 
 .input__label--hoshi-color-1::after {
     /*border-color: hsl(200, 100%, 50%);*/
-    border-color: #AFB1A7;
+    border-color: #3A4454;
 }
 
 .input__label--hoshi-color-2::after {
-    border-color: #AFB1A7;
+    border-color: #3A4454;
 }
 
 .input__label--hoshi-color-3::after {
-    border-color: #AFB1A7;
+    border-color: #3A4454;
 }
 
 
