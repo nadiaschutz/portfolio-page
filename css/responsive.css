@@ -18,8 +18,9 @@
         /*float: left;*/
         background-color: rgba(255, 255, 255, 0.8);
         width: 100px;
-        box-shadow: 0 1px 10px 0 rgba(34, 34, 34, 0.18), 0 1px 1px 0 rgba(34, 34, 34, 0.36);
-        margin-right: 1px;
+        /* box-shadow: 0 1px 10px 0 rgba(34, 34, 34, 0.18), 0 1px 1px 0 rgba(34, 34, 34, 0.36);*/
+        box-shadow: 0px 0px 3px 0px rgba(34, 34, 34, 0.18);
+        margin-right: 10px;
         /* box-shadow: 1px 0 3px rgba(34, 34, 34, 0.18);*/
     }
     .navbar-collapse {
