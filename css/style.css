@@ -164,6 +164,16 @@ h5 {
     margin-bottom: 30px;
 }
 
+.work-img:before {
+    content: '';
+    background-color: red;
+    height: 15px;
+    width: auto;
+    position: absolute;
+    top: -15px;
+    left: 0;
+}
+
 .work-img {
     /*box-shadow: 0px 5px 35px 9px #ccc;*/
     /*-moz-box-shadow: 0px 10px 10px -9px black;
@@ -179,6 +189,7 @@ h5 {
     /* width: 100%;*/
     transition: color .3s ease-in-out;
     /*box-shadow: 0px 0px 3px 0px rgba(34, 34, 34, 0.18);*/
+    position: relative;
 }
 
 .hover a img {
