@@ -260,7 +260,10 @@ h5 {
 .devicon-react-original,
 .devicon-babel-plain,
 .devicon-javascript-plain,
-.devicon-nodejs-plain {
+.devicon-nodejs-plain,
+.devicon-csharp-plain,
+.devicon-vuejs-plain,
+.devicon-tomcat-line {
     font-size: 100px;
 }
 
