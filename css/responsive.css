@@ -60,18 +60,23 @@
         /* font-size: 64px; */
         font-size: 65px;
     }
-    .devicons,
-    .devicon-atom-original,
-    .devicon-react-original,
-    .devicon-babel-plain,
-    .devicon-javascript-plain,
-    .devicon-nodejs-plain,
-    .devicon-csharp-plain,
-    .devicon-vuejs-plain,
-    .devicon-react-original,
-    .devicon-tomcat-line {
-        font-size: 70px;
-    }
+    
+.devicons,
+.devicon-atom-original,
+.devicon-react-original,
+.devicon-babel-plain,
+.devicon-javascript-plain,
+.devicon-nodejs-plain,
+.devicon-csharp-plain,
+.devicon-vuejs-plain,
+.devicon-react-original,
+.devicon-tomcat-line,
+.devicon-python-plain,
+.devicon-typescript-plain,
+.devicon-linux-plain{
+     font-size: 70px;
+}
+    
     .iconlabel {
         font-size: 0.8rem;
         line-height: 1.2rem;
