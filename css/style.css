@@ -264,7 +264,10 @@ h5 {
 .devicon-csharp-plain,
 .devicon-vuejs-plain,
 .devicon-react-original,
-.devicon-tomcat-line {
+.devicon-tomcat-line,
+.devicon-python-plain,
+.devicon-typescript-plain,
+.devicon-linux-plain{
     font-size: 100px;
 }
 
